@@ -2,6 +2,7 @@
   require("../connection.php");
   $nik = "";  
   $nama_pegawai = "";
+  $tanggal_lahir = "";
 
 
   if (isset($_POST['cmdSIMPAN']))
@@ -99,7 +100,7 @@
           </div>
           <div class="form-group">
             <label class="fw-bold" for="tanggal_lahir">Tanggal Lahir</label>
-            <input type="date" class="form-control" id="tanggal_lahir" name="tanggal_lahir" required >
+            <input type="date" class="form-control" id="tanggal_lahir" name="tanggal_lahir" value="<?=$tanggal_lahir?>" required >
             <div class="invalid-feedback">Tanggal Lahir harus tanggal yang valid</div>
           </div>
           <?php $jenis_kelamin_items = getJenisKelaminItem($theLINK) ?>

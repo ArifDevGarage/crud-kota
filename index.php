@@ -30,6 +30,26 @@
   }  
   ?>
   <div class="container my-3">
+
+    <nav class="navbar navbar-sm navbar-expand-lg navbar-dark bg-dark my-3 rounded" aria-label="navbar-primary">
+      <div class="container">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample11" aria-controls="navbarsExample11" aria-expanded="true" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="navbar-collapse d-lg-flex collapse show" id="navbarsExample11" style="">
+          <a class="navbar-brand col-lg-3 me-0" href="#">CRUD</a>
+          <ul class="navbar-nav col-lg-6 justify-content-lg-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Kota</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/Pegawai/index.php">Pegawai</a>
+            </li>
+        </div>
+      </div>
+    </nav>
+
     <div class="card">
       <div class="card-header bg-dark text-white">CRUD Data Kota</div>
       <div class="card-body">
